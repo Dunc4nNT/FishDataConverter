@@ -23,15 +23,17 @@ Create a `.json` file in the input folder and add in all the fish you want to ad
 
 ModId is recommended to be set (as per naming guidelines), you could however leave it out if you don't use it.
 To use your ModId in one of the fish's IDs, add `{{ModId}}` to it.
-```json
+```jsonc
 {
+    // The mod's unique ID
+    // Should be the same as `ModId` in your `manifest.json`
     "ModId": "NeverToxic.FishDataScript"
 }
 ```
 
 ### Custom Fish
 
-```json
+```jsonc
 {
     // The fish's unique ID
     // {{ModId}} will be converted to the ModId specified above, if specified
@@ -96,7 +98,7 @@ To use your ModId in one of the fish's IDs, add `{{ModId}}` to it.
 
 ### Custom Crabpot Fish
 
-```json
+```jsonc
 {
     // The fish's unique ID
     // {{ModId}} will be converted to the ModId specified above, if specified
