@@ -19,7 +19,7 @@ class BaseFishData:
         self.size = size
 
     def str_no_leading_zero(self, num: str) -> str:
-        return num[1:] if num.startswith("0.") else num
+        return num[1:] if num.startswith("0.")  and num != "0.0" else num
 
 
 class FishData(BaseFishData):
