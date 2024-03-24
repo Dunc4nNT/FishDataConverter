@@ -1,0 +1,33 @@
+{
+    "ModId": "NeverToxic.FishDataScript",
+    "{{ModId}}_MyFish": {
+        "Name": "My Fish",
+        "ChanceToDart": 80,
+        "DartingRandomness": "mixed",
+        "Size": {
+            "Min": 32,
+            "Max": 45
+        },
+        "TimeRanges": [
+            {
+                "Min": 600,
+                "Max": 2600
+            }
+        ],
+        "Weather": "both",
+        "MaxDepth": 1,
+        "SpawnMultiplier": 0.5,
+        "DepthMultiplier": 0.1,
+        "FishingLevel": 0,
+        "TutorialCatch": true
+    },
+    "{{ModId}}_MyCrab": {
+        "Name": "My Crab",
+        "Chance": 0.2,
+        "WaterType": "freshwater",
+        "Size": {
+            "Min": 5,
+            "Max": 25
+        }
+    }
+}
