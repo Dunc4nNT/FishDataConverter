@@ -17,7 +17,9 @@ into this:
 
 ## How to Use
 
-Create a `.json` file in the input folder and add in all the fish you want to add using the format specified below.
+- Create a `.json` file in the input folder and add in all the fish you want to add using the format specified below.
+- Run the `main.py` file through your command prompt.
+
 More information about the various fish field can be found on the [stardew wiki](https://stardewvalleywiki.com/Modding:Fish_data). I've copied some of the field explanations from there as well.
 
 ### ModId
